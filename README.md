@@ -12,10 +12,11 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 - Thierno Barry
 - Rolando Mancilla-Rojas
 
-### Source
+### Sources
 
 - ![NYC Open Dataset](https://opendata.cityofnewyork.us/)
 - ![Cleaned CSV](https://drive.google.com/file/d/1ByDEStAVRacADbbdEW0v1k2JspoiGVZr/view?usp=drive_link)
+- ![Modified ZCTA Code Tabulation Areas](https://nychealth.github.io/covid-maps/modzcta-geo/about.html)
 
 ### Stakeholder
 
