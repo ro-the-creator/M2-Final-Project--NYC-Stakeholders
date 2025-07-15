@@ -1,6 +1,6 @@
 # Module 2 - NYC Stakeholders
 
-![](https://assets.codepen.io/5102/NYC_Health-logo.png)
+![](https://data.cityofnewyork.us/api/assets/3FF54443-CD9C-4E56-8A20-8D2BD245BD1A?nyclogo300.png)
 <p align='center'>
 An analysis of emergency department visits and admissions to hospitals in NYC, using Department of Health and Mental Hygiene (DOHMH) data from NYC Open Data.
 </p>
@@ -15,6 +15,11 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 ### Source
 
 - ![NYC Open Dataset](https://opendata.cityofnewyork.us/)
+
+### Stakeholder
+
+![](https://assets.codepen.io/5102/NYC_Health-logo.png)
+
 
 ### Aims
 
