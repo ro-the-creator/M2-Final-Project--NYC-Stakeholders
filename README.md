@@ -19,7 +19,7 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 ### Stakeholder
 
 ![](https://assets.codepen.io/5102/NYC_Health-logo.png)
-
+The Department of Health and Mental Hygiene, or DOHMH, 
 
 ### Aims
 
