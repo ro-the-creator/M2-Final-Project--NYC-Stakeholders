@@ -34,7 +34,7 @@ Our focus revolved around not only cleaning and analyzing the data, but an empha
 9. Live presentation of our findings
 
 ## Analysis
-
+- functional analysis
 
 ## Visualizations
 
