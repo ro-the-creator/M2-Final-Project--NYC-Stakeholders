@@ -7,11 +7,11 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 ## Directory
 
 - [Stakeholder](#stakeholder)
-- [Project Scope](#project-scope)
-- [Analysis](#analysis)
-- [Visualizations](#visualizations)
-- [Findings](#findings)
-- [Next Steps](#next-steps)
+   - [Project Scope](#project-scope)
+      - [Analysis](#analysis)
+         - [Visualizations](#visualizations)
+            - [Findings](#findings)
+               - [Next Steps](#next-steps)
 
 ## Stakeholder
 
