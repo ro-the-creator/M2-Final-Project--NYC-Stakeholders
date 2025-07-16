@@ -4,6 +4,12 @@
 An analysis of emergency department visits and admissions to hospitals in NYC, using Department of Health and Mental Hygiene (DOHMH) data from NYC Open Data. Specifically, the emergency department visits, with regard to influenza-like or pneumonia symptoms, during the years of 2020 - 2022.
 </p>
 
+## Directory
+
+![Stakeholder](#Stakeholder)
+
+
+
 ## Stakeholder
 
 ![](https://assets.codepen.io/5102/NYC_Health-logo.png)
