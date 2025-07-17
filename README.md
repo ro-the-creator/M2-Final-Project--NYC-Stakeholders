@@ -54,11 +54,11 @@ With these questions in mind, it was also crucial for us to present our data in 
 
 ### Sources
 
-- ![NYC Open Dataset](https://opendata.cityofnewyork.us/)
-- ![Cleaned CSV](https://drive.google.com/file/d/1ByDEStAVRacADbbdEW0v1k2JspoiGVZr/view?usp=drive_link)
-- ![Modified ZCTA Code Tabulation Areas](https://nychealth.github.io/covid-maps/modzcta-geo/about.html)
-- ![Figma Project Board](https://www.figma.com/board/5VQh66Q7veSFcQa61Ak83B/M2---Stand-In---Stand-Down?node-id=30-543&t=9sVOFV8FFDlbiQKw-0)
-- ![Tableau Dashboard](https://public.tableau.com/app/profile/thierno.barry7757/viz/myprojectmoddashboard/Dashboard1?publish=yes)
+- [NYC Open Dataset](https://opendata.cityofnewyork.us/)
+- [Cleaned CSV](https://drive.google.com/file/d/1ByDEStAVRacADbbdEW0v1k2JspoiGVZr/view?usp=drive_link)
+- [Modified ZCTA Code Tabulation Areas](https://nychealth.github.io/covid-maps/modzcta-geo/about.html)
+- [Figma Project Board](https://www.figma.com/board/5VQh66Q7veSFcQa61Ak83B/M2---Stand-In---Stand-Down?node-id=30-543&t=9sVOFV8FFDlbiQKw-0)
+- [Tableau Dashboard](https://public.tableau.com/app/profile/thierno.barry7757/viz/myprojectmoddashboard/Dashboard1?publish=yes)
 
 
 ## Analysis
@@ -73,7 +73,7 @@ A simple `df['date']=pd.to_datetime(df['date'])` and `df['mod_zcta']=df['mod_zct
 After, we created a new column, Admissions/Visits, which showed the number of people hospitalized within the number of people who visited an emergency department (ED) with symptoms of flu or pneumonia. This was done by simply dividing the admissions column by the visits column.
 </p>
 
-Next, we wanted to create a borough column that assigned each ZIP code to its respective borough. To do this, we created lists that represents the range of ZIP code values for each borough, using the![Modified ZCTA Code Tabulation Areas](https://nychealth.github.io/covid-maps/modzcta-geo/about.html) table.
+Next, we wanted to create a borough column that assigned each ZIP code to its respective borough. To do this, we created lists that represents the range of ZIP code values for each borough, using the [Modified ZCTA Code Tabulation Areas](https://nychealth.github.io/covid-maps/modzcta-geo/about.html) table.
 
 ```c++
 #matching the zipcode to the borough name
