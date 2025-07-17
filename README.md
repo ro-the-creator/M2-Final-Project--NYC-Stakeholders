@@ -9,8 +9,7 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 - [Stakeholder](#stakeholder)
    - [Project Scope](#project-scope)
       - [Analysis](#analysis)
-         - [Visualizations](#visualizations)
-            - [Findings](#findings)
+           - [Findings](#findings)
                - [Next Steps](#next-steps)
 
 ## Stakeholder
@@ -41,10 +40,10 @@ Our focus revolved around not only cleaning and analyzing the data, but an empha
 Within the scope of the project, our stakeholders, the Department of Health and Mental Hygiene (DOHMH), have asked us to provide insights on the following questions:
 </p>
 
-1. What ZIP codes have the highest emergency department visits to hospital admissions ratio?
+1. Which boroughs had the highest rate of hospitalizations?
    - Specifically, regarding symptoms of influenza-like or pneumonia illnesses.
 
-2. Which of these areas needs the most financial support?
+2. Which of these boroughs needs the most financial support?
    - Where should the DOHMH give more funding? Where should they give less?
   
 <p align='center'>
@@ -59,16 +58,48 @@ With these questions in mind, it was also crucial for us to present our data in 
 
 
 ## Analysis
-- functional analysis
 
-## Visualizations
-
+<p align='center'>
+To begin analyzing our data, we had to make swift adjustments to make the data suitable for our needs. 
 
 ## Findings
 
+<p align='center'>
+As a result of our analysis, there were several key insights that were revealed in our dataset. In an overall sense, we found that Queens is the most at-risk when it comes to hospitalizations from ED symptom visits. However, there were other areas in different boroughs that had high-risk areas.
+</p>
 
-## Next Steps
+In order, the top boroughs with hospitalization risks per ED symptom visits are:
+1. Queens
+2. Brooklyn
+3. Manhattan
+4. Bronx
+5. Staten Island
 
+<p align='center'>
+Upon inspecting the ZIP codes across all boroughs, we found that the top 3 ZIP codes with the highest hospital admissions from the ED symptom visits, when accounting for total visits, all resided in Queens. This was an obscure find that required deeper analysis. Manhattan, for example, had the highest rates of hospitalizations across all boroughs, but did not account for as many visits to the emergency department as the other boroughs.
+</p> 
+
+## Recommendations
+
+<p align='center'>
+As a result of our findings, we looked back at our original aims and questions:
+</p>
+
+1. Which borough had the highest rate of hospitalizations?
+2. Which of these boroughs needs the most financial support?
+
+<p align'center'>
+Since we found that Queens had the highest hospitalization rates, our strongest recommendation is to provide more financial support to Queens. Upon further investigation into the ZIP codes with high hospitalization rates in Queens, we found that those areas are representative of low-income, immigrant-filled areas. These areas seem to be struggling the most and could use the help of free health clinics provided by the DOHMH.
+</p>
+
+<p align'center'>
+Furthermore, our analysis reveals that, when accounting for the number of visits, Staten Island had the lowest rates of hospitalizations and was deemed a low-risk borough. With outside sources, we saw that Staten Island is particularly regarded as one of the wealthiest boroughs in NYC. With speculation, the outcome of our analysis into Staten Island could be attributed to many people being able to afford private healthcare in this borough, barring the need for additional resources from the DOHMH.
+</p>
+
+## Reflections
+
+<p align'center'>
+While working with our data, the reveal of Queens being a high-risk area was not very surprising. Anecdotally, we are aware of the income disparities across Queens, and the ZIP codes with the highest rate of hospitalizations were all around Corona.
 
 > [!NOTE]
 > This is a fictitious scenario created by the GitHub authors for academic purposes only.
