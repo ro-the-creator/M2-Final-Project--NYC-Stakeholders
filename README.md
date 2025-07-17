@@ -122,6 +122,11 @@ With these new columns all created, we were ready to begin charting and analyzin
 
 ## Visualizations
 
+<p align='center'>
+The culmination of our data manipulation came with creating the visualizations, where the creation of our new columns made it much easier. The only data type change that was required was the zip codes and boroughs, which could easily be assigned when viewing the data source on Tableau. After assigning the geographical location to both zip codes and boroughs, it was only a matter of creating charts that could best represent the analyses we wanted to convey: Queens being the highest-risk of hospitalizations.
+</p>
+
+
 
 
 ## Findings
