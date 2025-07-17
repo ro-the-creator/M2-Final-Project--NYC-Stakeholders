@@ -9,8 +9,10 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 - [Stakeholder](#stakeholder)
    - [Project Scope](#project-scope)
       - [In-Depth Analysis](#analysis)
-         - [Recommendations](#recommendations)
-            - [Reflections / What's Next](#reflections)
+         - [Visualizations/Charts](#visualizations)
+            - [Findings in the Data](#findings)
+               - [Recommendations](#recommendations)
+                  - [Reflections / What's Next](#reflections)
 
 ## Stakeholder
 
@@ -60,6 +62,69 @@ With these questions in mind, it was also crucial for us to present our data in 
 
 
 ## Analysis
+
+<p align='center'>
+On top of the usual cleaning, we decided to create new columns that would aid in creating charts on Tableau. to do this, some transformations to the data types must be done
+</p> 
+
+A simple `df['date']=pd.to_datetime(df['date'])` and `df['mod_zcta']=df['mod_zcta'].astype(str)` was done to convert our dates to the datetime type. The mod_zcta, which represents the modified ZIP Code Tabulation Area (ZCTA), was transformed to a string to prevent any automatic transformations to the ZIP code numbers when passing the csv to other readers.
+
+<p align='center'>
+After, we created a new column, Admissions/Visits, which showed the number of people hospitalized within the number of people who visited an emergency department (ED) with symptoms of flu or pneumonia. This was done by simply dividing the admissions column by the visits column.
+</p>
+
+Next, we wanted to create a borough column that assigned each ZIP code to its respective borough. To do this, we created lists that represents the range of ZIP code values for each borough, using the![Modified ZCTA Code Tabulation Areas](https://nychealth.github.io/covid-maps/modzcta-geo/about.html) table.
+
+```c++
+#matching the zipcode to the borough name
+zipcodes ={
+'Manhattan': list(range(10001, 10282)),
+'The Bronx': list(range(10451, 10475)),
+'Brooklyn': list(range(11201, 11256)),
+"Queens": list(range(11004, 11110)) + list(range(11351, 11698)),
+'Staten Island': list(range(10301, 10314))}
+
+# creating a function to apply to our new column
+def my_borough(zipcode):
+    try:
+        zip_int= int(zipcode)
+    except: 
+        return None
+    for borough, zip in zipcodes.items():
+         if zip_int in zip:
+            return borough
+    return 'unknown'
+        
+df['borough']=df['mod_zcta'].apply(my_borough) # apply function to our original data set
+df_zip_date['borough']=df_zip_date['mod_zcta'].apply(my_borough) # # apply function to our grouped data set
+```
+<p align='center'>
+Next, an important step for us to quickly assess which areas were high, moderate, or low risk was to evaluate the rate of hospitalizations, or Admissions/Visits. To do this, we ran a method that used if statements to run the ratio through inequalities to determine what the rate would be identified as. Notably, we only accounted for rates that were higher than the first quartile of ED visits, since we figured that high rates of low ED visits were too insignificant and could skew our overall data.
+</p>
+
+```c++
+# assigning Risks profile ( low moderate high risks )
+def assign_risk(admission_rate):
+    if admission_rate['ili_pne_visits'] < 120:# first quartile of number of visit for ili/pne
+        return "Low Volume _ Not Rated"
+    elif admission_rate['admissions/visits']>50:
+        return 'High risk'
+    elif admission_rate['admissions/visits']>30:
+        return 'Moderate risk'
+    else :
+        return 'Low risk'
+df_zip_date['Risk_level']=df_zip_date.apply(assign_risk, axis=1) # created a column Risk level, useful if you need to know how severe is the admission rate for a specific zip code
+```
+
+<p align='center'>
+With these new columns all created, we were ready to begin charting and analyzing key insights!
+</p>
+
+## Visualizations
+
+
+
+## Findings
 
 <p align='center'>
 As a result of our analysis, there were several key insights that were revealed in our dataset. In an overall sense, we found that Queens is the most at-risk when it comes to hospitalizations from ED symptom visits. However, there were other areas in different boroughs that had high-risk areas.
