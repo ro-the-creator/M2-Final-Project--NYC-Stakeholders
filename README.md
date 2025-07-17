@@ -147,7 +147,7 @@ In order, the top boroughs with hospitalization risks per ED symptom visits are:
 5. Staten Island
 
 <p align='center'>
-Upon inspecting the ZIP codes across all boroughs, we found that the top 3 ZIP codes with the highest hospital admissions from the ED symptom visits, when accounting for total visits, all resided in Queens. This was an obscure find that required deeper analysis. Manhattan, for example, had the highest rates of hospitalizations across all boroughs, but did not account for as many visits to the emergency department as the other boroughs.
+Upon inspecting the ZIP codes across all boroughs, we found that Manhattan took many of the top 10 spots, but Queens was a notable runner-up. This was an obscure find that required deeper analysis. Manhattan, for example, had the highest rates of hospitalizations across all boroughs, but did not account for as many visits to the emergency department as the other boroughs.
 </p> 
 
 ## Recommendations
@@ -160,7 +160,7 @@ As a result of our findings, we looked back at our original aims and questions:
 2. Which of these boroughs needs the most financial support?
 
 <p align='center'>
-Since we found that Queens had the highest hospitalization rates, our strongest recommendation is to provide more financial support to Queens. Upon further investigation into the ZIP codes with high hospitalization rates in Queens, we found that those areas are representative of low-income, immigrant-filled areas. These areas seem to be struggling the most and could use the help of free health clinics provided by the DOHMH.
+We found that Manhattan had the highest rates of hospitalization, but Queens had more severity since it accounted for a far greater number of ED visits. Therefore, our strongest recommendation is to provide more financial support to Queens, followed by Manhattan. Upon further investigation into the ZIP codes with high hospitalization rates in Queens, we found that those areas are representative of low-income, immigrant-filled areas. These areas seem to be struggling the most and could use the help of free health clinics provided by the DOHMH.
 </p>
 
 <p align='center'>
@@ -178,6 +178,7 @@ Given the little time we have to present, we had a long conversation about what 
 <p align='center'>
 Moving forward, we hope to continue showcasing underrepresented areas across the field in our data analytical work!
 </p>
+
 ***
 
 > [!NOTE]
