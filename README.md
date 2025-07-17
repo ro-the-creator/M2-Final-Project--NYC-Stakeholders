@@ -18,7 +18,7 @@ An analysis of emergency department visits and admissions to hospitals in NYC, u
 
 ![](https://assets.codepen.io/5102/NYC_Health-logo.png)
 <p align='center'>
-The NYC Department of Health and Mental Hygiene, or DOHMH, is a government agency and one of the largest public health agencies in the world. They are untrusted with promoting awareness on health by providing public services, like investigating disease spread, providing health inspections, and setting up no-cost health clinics in neighborhoods where they are most needed. 
+The NYC Department of Health and Mental Hygiene, or DOHMH, is a government agency and one of the largest public health agencies in the world. They are entrusted with promoting awareness of health by providing public services, like investigating disease spread, providing health inspections, and setting up no-cost health clinics in neighborhoods where they are most needed. 
 </p>
 
 <p align='center'>
