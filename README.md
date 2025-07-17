@@ -25,16 +25,16 @@ The NYC Department of Health and Mental Hygiene, or DOHMH, is a government agenc
 If you would like to learn more about the NYC DOHMH, you can keep up with their website, where they provide extensive information on the health services they provide.
 </p>
 
-- ![Department of Health Homepage](https://www.nyc.gov/site/doh/index.page)
+- [Department of Health Homepage](https://www.nyc.gov/site/doh/index.page)
 
 ## Project Scope
 
 ### Group Members
 
 - Thierno Barry
-   - ![Thierno's LinkedIn](https://www.linkedin.com/in/thierno-barry-333288284/)
+   - [Thierno's LinkedIn](https://www.linkedin.com/in/thierno-barry-333288284/)
 - Rolando Mancilla-Rojas
-   - ![Rolando's LinkedIn](https://www.linkedin.com/in/rolandoma33/)
+   - [Rolando's LinkedIn](https://www.linkedin.com/in/rolandoma33/)
 
 ### Aims
 <p align='center'> 
