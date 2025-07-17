@@ -42,7 +42,7 @@ Our focus revolved around not only cleaning and analyzing the data, but an empha
 Within the scope of the project, our stakeholders, the Department of Health and Mental Hygiene (DOHMH), have asked us to provide insights on the following questions:
 </p>
 
-1. What ZIP codes have the highest emergency department visits to hospital admissions ratio?
+1. What boroughs have the highest emergency department visits to hospital admissions ratio?
    - Specifically, regarding symptoms of influenza-like or pneumonia illnesses.
 
 2. Which of these areas needs the most financial support?
